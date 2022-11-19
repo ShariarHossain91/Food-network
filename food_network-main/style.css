@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {margin: 0px;font-family: 'Work Sans', sans-serif;}
+
+/*---------------header----------*/
+
+.container {margin: auto;width: 1200px;}
+
+.topbar {display: flex;padding-top: 20px;padding-bottom: 20px;}
+
+.topbar-logo img {width: 120px;padding-left: 60px;}
+
+.topbar-logo {flex-basis: 50%;}
+
+.topbar-contant ul {display: flex;list-style: none;font-size: 24px;font-weight: 700;padding-top: 25px;}
+
+.topbar-contant ul li {padding-right: 50px;text-align: center;text-transform: uppercase;color: black;transition: 0.3s;}
+
+header.header {background: url(./images/Frame\ 59.jpg);}
+
+.topbar-contant ul li:hover {color: black;}
+
+
+                 /*----------banner-----------*/
+.banner-wraper {display: flex;}
+
+.banner-con-1 h1 {width: 264px;line-height: 50px;font-size: 35px;}
+
+.banner-con-1 h1 p {color: #F088D1;font-weight: 700;margin-bottom: 22px;font-size: 50px;}
+
+.banner-con-1 p {font-weight: 500;width: 450px;color: #5e5c5c;font-size: 20px;line-height: 35px;}
+
+.banner-con-1 {padding-left: 50px;}
+
+.banner-con-1 h3 {color: black;font-size: 26px;text-align: center;width: 160px;border: 1px solid white;padding: 10px;border-radius: 30px;background: linear-gradient(#dfd7d7, #b14099);}
+
+section.banner {padding-top: 30px;}
+
+.banner-con-1 h3:hover {background: linear-gradient(#b14099, #e2b6d9);}
+        /*--------------about me-------------*/
+   
+.about{background: url(./images/7.png);}
+
+.about-con-wrap {display: flex;padding-top: 65px;padding-bottom: 60px;}
+
+.about-me-2 h1 {text-transform: uppercase;font-size: 30px;}
+
+.about-me-2 p {font-size: 19px;line-height: 30px;font-weight: 600;}
+
+.about-me-2 h3 {color: black;
+        font-size: 26px;
+        text-align: center;
+        width: 160px;
+        border: 1px solid white;
+        padding: 10px;
+        border-radius: 30px;
+        background: linear-gradient(#dfd7d7, #b14099);}
+
+.about-me-2 h3:hover {background: linear-gradient(#b14099, #e6c9e0);}
+
+.about-me-2 h3 a {text-decoration: none;color: black;}
+
+.banner-con-1 h3 a {text-decoration: none;color: black;}
+
+
+                  /*-------------recipies---------*/  
+                  
+                  
+.headline-recipies h1 {font-size: 35px;width: 215px;margin: auto;}
+
+section.recipies {padding-top: 80px;padding-bottom: 50px;}
+
+.headline-recipies p {width: 710px;margin: auto;padding-top: 15px;font-size: 20px;line-height: 30px;font-weight: 600;color: #666060;}
+
+                    /*--------------recipies box------------*/
+
+.recipies-box-wrap {width: 370px;background: white;border: 1px solid white;border-radius: 25px;box-shadow: 0px 5px 50px -20px;overflow: hidden;margin-right: 15px;margin-left: 15px;}
+
+.box-img img {max-width: 100%;}
+
+.recipies-box-wraper {display: flex;}
+
+.box-head {font-size: 20px;padding-left: 10px;}
+
+.box-con {line-height: 25px;font-size: 15px;padding-left: 10px;}
+
+.box-con h3 {font-weight: 300;}
+
+.box-button {width: 150px;margin: auto;font-size: 20px;font-weight: 600;}
+
+section.recipies-box {padding-bottom: 50px;}
+
+
+
+                  /*--------bottom box------------*/
+
+.bottom-box-con {width: 326px;text-align: center;}
+
+.bottom-box-wrap {display: flex;border: 1px solid #fffefe;border-radius: 20px;box-shadow: 0px 5px 50px -20px;}
+
+.bottom-box-con h1 {font-size: 30px;}
+
+.bottom-box-con p {font-size: 20px;}
+
+.bottom-box-container {width: 980px;margin: auto;padding-top: 90px;padding-bottom: 120px;}
+
+
+
+
+               /*-----------footer---------*/
+
+.footer-head {text-align: center;font-size: 25px;color: #aeaaaa;width: 200px;display: flex;margin: auto;}
+
+.footer-text {text-align: center;font-size: 20px;}
+
+.footer-text p {font-weight: 600;color: white;}
+
+section.footer {background: black;}
+
+.fotter-con-wrap {padding-top: 20px;padding-bottom: 20px;}
+
+h1.footer-con-food {padding-right: 15px;color: #0800fc;}
+
+
+                /*--------Our Featured Products----------*/
+.head-product h1 {font-size: 35px;
+        width: 400px;
+        margin: auto;}
+
+section.product-headline {padding-top: 50px;padding-bottom: 40px;}
+
+.feature-box-img img {width: 280px;}
+
+.featured-products-wraper {display: flex;}
+
+.featured-products-wrap {margin-right: 10px;margin-left: 10px;border: 1px solid #ffffff00;border-radius: 7px;overflow: hidden;background: white;}
+
+.feature-box-con {width: 130px;margin: auto;font-size: 20px;font-weight: 600;text-align: center;text-transform: uppercase;padding-top: 5px;padding-bottom: 5px;}
+
+section.featured-products {background: url(./images/7.png);padding-top: 70px;padding-bottom: 70px;}
+
+
+
+
+              /*-------------chef---------------*/
+
+.our-chef-wraper {display: flex;}
+
+section.our-chef {padding-top: 60px;padding-bottom: 60px;background: url(./images/Frame\ 59.jpg);margin-top: 50px;}
+
+.chef-into {width: 300px;}
+
+.chef-into h1 {font-size: 40px;}
+
+.chef-into p {color: black;font-size: 20px;line-height: 30px;font-weight: 600;}
+
+.chef-box-wrap {width: 280px;margin-right: 20px;margin-left: 20px;border: 1px solid white;border-radius: 10px;overflow: hidden;background: white;}
+
+.chef-box-con h1 {width: 165px;font-size: 28px;margin: auto;text-align: center;padding-top: 20px;}
+
+.chef-box-con p {color: black;font-size: 20px;font-weight: 600;width: 154px;text-align: center;margin: auto;padding-top: 15px;padding-bottom: 25px;}
+
+
+
+
+
+
+              
